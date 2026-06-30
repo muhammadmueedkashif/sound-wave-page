@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SoundWave</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <i class="fa-solid fa-wave-square"></i>
+            SoundWave
+        </div>
+
+        <ul id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#stats">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="buy-btn">Buy Now</button>
+        <div class="menu-toggle" id="menuToggle"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="left">
+            <span class="tag">NEW ARRIVAL</span>
+
+            <h1>Feel the <span id="typedColor">Sound</span>,<br>Live the Moment.</h1>
+
+            <p>Experience premium audio quality with SoundWave headphones. Designed for comfort. Built for performance.</p>
+
+            <div class="hero-btns">
+                <button class="primary" id="exploreBtn">Explore Now</button>
+                <button class="video-btn"><i class="fa-solid fa-play"></i> Watch Video</button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="platform"></div>
+
+            <div class="headphone-wrap">
+                <img src="pictures\headphone 2.png" alt="Headphone">
+            </div>
+
+            <div class="colors">
+                <div class="dot active" data-color="#9d5cff" style="background:#9d5cff"></div>
+                <div class="dot" data-color="#5cffd6" style="background:#5cffd6"></div>
+                <div class="dot" data-color="#ff5c8a" style="background:#ff5c8a"></div>
+                <div class="dot" data-color="#ffd25c" style="background:#ffd25c"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+
+        <div class="card">
+            <i class="fa-solid fa-volume-high"></i>
+            <h3>Premium Sound</h3>
+            <p>Crystal clear audio with deep bass.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-feather"></i>
+            <h3>Ultra Comfort</h3>
+            <p>Soft cushions for all day comfort.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-battery-full"></i>
+            <h3>40H Battery</h3>
+            <p>Long lasting battery performance.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-brands fa-bluetooth"></i>
+            <h3>Bluetooth 5.3</h3>
+            <p>Fast and stable wireless connection.</p>
+        </div>
+
+    </section>
+
+    <!-- Stats -->
+    <section class="stats" id="stats">
+        <div class="stat-box"><h2 data-target="50000">0</h2><p>Happy Customers</p></div>
+        <div class="stat-box"><h2 data-target="120">0</h2><p>Countries Reached</p></div>
+        <div class="stat-box"><h2 data-target="40">0</h2><p>Hours Battery</p></div>
+        <div class="stat-box"><h2 data-target="4">0</h2><p>Color Options</p></div>
+    </section>
+
+</div>
+
+<footer class="footer" id="contact">
+
+    <div class="footer-content">
+
+        <div class="footer-brand">
+            <div class="logo"><i class="fa-solid fa-wave-square"></i> SoundWave</div>
+            <p>Experience premium sound quality with futuristic wireless headphones built for comfort and performance.</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#stats">Products</a>
+            <a href="#about">About</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>Support</h3>
+            <a href="#">Help Center</a>
+            <a href="#">FAQ</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+        </div>
+
+        <div class="newsletter">
+            <h3>Newsletter</h3>
+            <p>Subscribe for latest updates and offers.</p>
+
+            <form class="subscribe" id="subscribeForm">
+                <input type="email" placeholder="Your Email" id="emailInput" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <div class="sub-msg" id="subMsg"></div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 SoundWave. All Rights Reserved.</p>
+
+        <div class="socials">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+    <div class="credit">Created with ❤️ by <span>Muhammad Mueed Kashif</span></div>
+
+</footer>
+
+<div class="back-top" id="backTop"><i class="fa-solid fa-arrow-up"></i></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
